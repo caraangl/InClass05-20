@@ -15,6 +15,15 @@ package ca.sheridancollege.week1.softwarefundamentals;
 public class Student 
 {
     private String name;
+    private String anime; 
+
+    public String getAnime() {
+        return anime;
+    }
+
+    public void setAnime(String anime) {
+        this.anime = anime;
+    }
 
     /**
      * @return the name
